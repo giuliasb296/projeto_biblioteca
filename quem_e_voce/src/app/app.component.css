@@ -30,7 +30,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #008FFB
+    background-color: #008FFB;
+    flex-direction: column;
 }
 
 path {
@@ -41,7 +42,11 @@ path {
 
 .title {
     color: #FFF;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 72px;
 }
 
 .usuarios {
@@ -51,6 +56,22 @@ path {
     width: 45vw;
     height: 8vh;
     font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
     color: white;
     
+}
+
+.btn_voltar {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 16px;
+}
+
+.voltar{
+    width: 30px;
+    height: 30px;
 }
